@@ -11,7 +11,7 @@ export const About = () => {
 					<div className="aboutwrapper">
 						<div className="aboutsection">
 							<img
-								src="/images/profile.jpg"
+								src="../../../public/images/profile.jpg"
 								alt="profileimg"
 								width="400"
 								height="500"

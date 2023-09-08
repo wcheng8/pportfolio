@@ -10,14 +10,14 @@ function Cards() {
 				<div className="cards__wrapper">
 					<ul className="cards__items">
 						<CardItem
-							src="/images/covid.jpeg"
+							src="../../public/images/covid.jpeg"
 							text="Covid Analysis on Tableau"
 							label="Data Analysis"
 							linkname="Tableau Web"
 							link="/"
 						/>
 						<CardItem
-							src="images/tetris.jpeg"
+							src="../../public/images/tetris.jpeg"
 							text="Tetris Clone"
 							label="Game"
 							linkname="Github"
@@ -26,14 +26,14 @@ function Cards() {
 					</ul>
 					<ul className="cards__items">
 						<CardItem
-							src="images/notebook.jpeg"
+							src="../../public/images/notebook.jpeg"
 							text="Markdown Notetaking Application"
 							label="Web App"
 							linkname="Github"
 							link="https://github.com/wcheng8/MarkDownNotesApp"
 						/>
 						<CardItem
-							src="images/bookmarket.jpeg"
+							src="../../public/images/bookmarket.jpeg"
 							text="Ruby on Rails Two way Marketplace"
 							label="Web App"
 							linkname="Github"
