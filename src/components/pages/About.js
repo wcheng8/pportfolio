@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
-
+import profileimg from "../../images/profile.JPG";
 export const About = () => {
 	return (
 		<>
@@ -11,7 +11,7 @@ export const About = () => {
 					<div className="aboutwrapper">
 						<div className="aboutsection">
 							<img
-								src="../../../public/images/profile.jpg"
+								src={profileimg}
 								alt="profileimg"
 								width="400"
 								height="500"

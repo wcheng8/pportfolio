@@ -25,7 +25,11 @@ export const Navbar = () => {
 		<div>
 			<nav className="navbar">
 				<div className="navbar-container">
-					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+					<Link
+						to="/pportfolio"
+						className="navbar-logo"
+						onClick={closeMobileMenu}
+					>
 						W{" "}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +47,11 @@ export const Navbar = () => {
 					</div>
 					<ul className={click ? "nav-menu active" : "nav-menu"}>
 						<li className="nav-item">
-							<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+							<Link
+								to="/pportfolio"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
 								Home
 							</Link>
 						</li>

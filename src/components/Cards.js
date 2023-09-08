@@ -1,6 +1,10 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
+import covidimg from "../images/covid.jpeg";
+import tetrisimg from "../images/tetris.jpeg";
+import noteimg from "../images/notebook.jpeg";
+import bookimg from "../images/bookmarket.jpeg";
 
 function Cards() {
 	return (
@@ -10,14 +14,14 @@ function Cards() {
 				<div className="cards__wrapper">
 					<ul className="cards__items">
 						<CardItem
-							src="../../public/images/covid.jpeg"
+							src={covidimg}
 							text="Covid Analysis on Tableau"
 							label="Data Analysis"
 							linkname="Tableau Web"
 							link="/"
 						/>
 						<CardItem
-							src="../../public/images/tetris.jpeg"
+							src={tetrisimg}
 							text="Tetris Clone"
 							label="Game"
 							linkname="Github"
@@ -26,14 +30,14 @@ function Cards() {
 					</ul>
 					<ul className="cards__items">
 						<CardItem
-							src="../../public/images/notebook.jpeg"
+							src={noteimg}
 							text="Markdown Notetaking Application"
 							label="Web App"
 							linkname="Github"
 							link="https://github.com/wcheng8/MarkDownNotesApp"
 						/>
 						<CardItem
-							src="../../public/images/bookmarket.jpeg"
+							src={bookimg}
 							text="Ruby on Rails Two way Marketplace"
 							label="Web App"
 							linkname="Github"
